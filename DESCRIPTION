@@ -1,0 +1,11 @@
+Package: randomizationTest
+Type: Package
+Title: Create the randomization distribution of sums
+Version: 1.0
+Date: 2014-03-25
+Authors@R: c(person("Douglas","Bates",role=c("aut","cre"),email="bates@stat.wisc.edu"))
+Description: Create the randomization distribution for the sum of a sample of size k from an integer vector of responses.
+License: MIT
+Depends: R (>= 3.0)
+LinkingTo: Rcpp
+Imports: Rcpp (>= 0.11.0)
