@@ -1,2 +1,4 @@
 export(randomsums)
 useDynLib(randomizationTest)
+importFrom(Rcpp,evalCpp)
+
